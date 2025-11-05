@@ -1,0 +1,22 @@
+# my_plane.obj
+#
+# 4 vertex positions (x y z)
+v -.15 -.15 0.002000000094994903
+v  .15 -.15 0.002000000094994903
+v  .15  .15 0.002000000094994903
+v -.15  .15 0.002000000094994903
+
+# 4 UV coordinates (u v)  ←← Exactly two numbers per line!
+vt 0.0 0.0
+vt 1.0 0.0
+vt 1.0 1.0
+vt 0.0 1.0
+
+# 1 vertex normal (nx ny nz)
+vn 0.0 0.0 1.0
+
+# Define two triangles (f v/vt/vn)
+usemtl $Material_0
+f  1/1/1  2/2/1  3/3/1
+f  1/1/1  3/3/1  4/4/1
+
