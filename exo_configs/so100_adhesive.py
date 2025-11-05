@@ -2,7 +2,10 @@
 import numpy as np
 import cv2
 from cv2 import aruco
-from .exoskeleton import ExoskeletonConfig, LinkConfig, BLENDER_STL_DIR
+from .exoskeleton import ExoskeletonConfig, LinkConfig
+
+
+BLENDER_STL_DIR = "../../../exo_hardware_files/so100"
 
 SO100_MODEL_DIR = "robot_models/so100_model"
 BOARD_IMG_DIR = "exo_hardware_files/board_imgs"

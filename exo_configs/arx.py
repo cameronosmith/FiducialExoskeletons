@@ -4,6 +4,7 @@ from .exoskeleton import ExoskeletonConfig, LinkConfig, BLENDER_STL_DIR
 from cv2 import aruco
 
 ARX_MODEL_DIR = "robot_models/arx_l5"
+BLENDER_STL_DIR = "../../../exo_hardware_files/arx"
 SO100_MODEL_DIR = "robot_models/so100_model"
 BOARD_IMG_DIR = "exo_hardware_files/board_imgs"
 
