@@ -1,3 +1,4 @@
+## Fiducial Exoskeletons: Image-Centric Robot State Estimation  
 <img src="assets/teaser_state_estimation.png" alt="demo" width="800px">
 
 Official implementation of `Fiducial Exoskeletons: Image-Centric Robot State Estimation`  
@@ -11,7 +12,7 @@ Official implementation of `Fiducial Exoskeletons: Image-Centric Robot State Est
 ```python
 import mujoco, matplotlib.pyplot as plt, numpy as np
 from exo_utils import estimate_robot_state, detect_and_set_link_poses, position_exoskeleton_meshes, render_from_camera_pose, get_link_poses_from_robot
-from exo_configs import SO100_ADHESIVE_CONFIG
+from exo_configs.so100_adhesive import SO100_ADHESIVE_CONFIG
 
 robot_config = SO100_ADHESIVE_CONFIG
 # Load model from config
@@ -43,3 +44,8 @@ plt.show()
 `exo_utils.py` contains helper functions for the exoskeleton estimation.
 
 `exo_configs` contains the mujoco xml files for the exoskeletons.
+
+## Exoskeleton Installation
+
+
+
