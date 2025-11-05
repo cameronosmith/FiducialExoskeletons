@@ -47,5 +47,6 @@ plt.show()
 
 ## Exoskeleton Installation
 
+<video src="assets/animation_exos.mp4" width="400" controls autoplay loop muted playsinline></video>
 
-
+3D-print the stl files in `exo_hardware_files/so100`. Print the aruco boards in `exo_hardware_files/link_boards.pdf` on [adhesive paper](https://www.amazon.com/dp/B09W9J2123?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_11) (ignore the smaller base aruco) and cut/stick them on the corresponding link in the orientation shown in the video above. To attach the exoskeleton to the robot, you can use sticky adhesive [like this](https://www.amazon.com/dp/B09W9J2123?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_11) or any hot glue. A video on the installation will be posted soon.
