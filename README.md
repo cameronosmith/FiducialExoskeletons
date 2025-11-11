@@ -57,4 +57,4 @@ It also may be helpful to explore the exoskeleton and aruco orientation in the m
 
 See a brief installation video below. 
 
-[![Watch the video](https://img.youtube.com/vi/hz3EoZpYo8k/mqdefault.jpg)](https://www.youtube.com/watch?v=<VIDEO_ID>)
+[![Watch the video](https://img.youtube.com/vi/hz3EoZpYo8k/mqdefault.jpg)](https://www.youtube.com/watch?v=hz3EoZpYo8k)
